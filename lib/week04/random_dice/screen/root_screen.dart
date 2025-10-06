@@ -35,6 +35,20 @@ TickerProviderStateMixin{
   }
 
   BottomNavigationBar renderBottomNavigation(){
-    return BottomNavigationBar(items: [],);
+    return BottomNavigationBar(items: [
+      BottomNavigationBarItem(
+        icon: Icon(
+          Icons.edgesensor_high_outlined,
+        ),
+        label: '주사위',
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(
+          Icons.settings,
+        ),
+        label: '설정',
+      ),
+    ],
+   );
   }
 }
