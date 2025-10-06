@@ -8,7 +8,9 @@ class RootScreen extends StatelessWidget {
       body: TabBarView(
         children: renderChildren(),
       ),
-      
+
+      bottomNavigationBar: renderBottom,
+
     );
   }
 }
