@@ -5,6 +5,10 @@ class RootScreen extends StatefulWidget {
   @override
   state<RootScreen> createState() => _RootScreenState();
 }
+class _RootScreenState extends state<RootScreen> with
+TickerProviderStateMixin{
+  TabController? controller;
+}
   @override
   Widget build(BuildContext context){
     return Scaffold(
