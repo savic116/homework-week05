@@ -49,8 +49,9 @@ TickerProviderStateMixin{
       HomeScreen(number: 1),
       SettingScreen(
         threshold: threshold,
+        onThresholdChange: onThresholdChange,
 
-      )
+      ),
     ];
   }
 
