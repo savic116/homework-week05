@@ -1,7 +1,7 @@
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/const/colors.dart';
-
+import 'package:myapp/week04/random_dice/screen/root_screen.dart';
 void main(){
   runApp(
     MaterialApp(
