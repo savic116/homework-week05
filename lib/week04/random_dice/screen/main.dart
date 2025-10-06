@@ -7,6 +7,10 @@ void main(){
     MaterialApp(
       theme: ThemeData(
         scaffoldBackgroundColor: BackgroundColor,
+        sliderTheme: SliderThemeData(
+          thumbColor: primaryColor,
+          activeTrackColor: primaryColor,
+        )
       ),
       home: HomeScreen(),
     ),
