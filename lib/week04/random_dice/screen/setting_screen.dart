@@ -30,7 +30,7 @@ class SettingScreen extends StatelessWidget{
                   fontSize: 20.0,
                   fontWeight: FontWeight.w700,
                 ),
-              )
+              ),
             ],
           ),
         )
