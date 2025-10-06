@@ -7,10 +7,10 @@ class SettingScreen extends StatelessWidget{
   final ValueChanged<double> onThresholdChange;
 
   const SettingScreen({
-    Key? key
+    Key? key,
 
 
-    required this.Threshold,
+    required this.threshold,
     required this.onThresholdChange,
   }) : super(key : key);
 

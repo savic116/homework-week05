@@ -47,7 +47,7 @@ TickerProviderStateMixin{
   List<Widget> renderChildren(){
     return[
       HomeScreen(number: 1),
-      SettingsScreen(
+      SettingScreen(
         threshold: threshold,
 
       )
