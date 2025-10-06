@@ -12,7 +12,12 @@ void main(){
           activeTrackColor: primaryColor,
 
           inactiveTickMarkColor: primaryColor.withOpacity(0.3),
-        )
+        ),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          selectedIconTheme: primaryColor,
+          unselectedIconTheme: secondaryColor,
+          backgroundColor: BackgroundColor,
+        ),
       ),
       home: HomeScreen(),
     ),
