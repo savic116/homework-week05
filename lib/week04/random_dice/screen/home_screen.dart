@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/week04/random_dice/const/colors.dart';
 class HomeScreen extends StatelessWidget {
   final int number;
 
