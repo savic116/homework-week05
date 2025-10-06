@@ -24,6 +24,11 @@ TickerProviderStateMixin{
     controller = TabController(length: 2, vsync:  this);
 
     controller!.addListener(tabListener);
+    shakeDetector =ShakeDetector.autoStart(
+      shakeSlopTimeMS: 100,
+      shakeThresholdGravity: threshold,
+      onPhoneShake: onPhoneShake,
+    );
   }
   tabListener(){
     setState(() {
