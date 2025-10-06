@@ -8,6 +8,13 @@ class RootScreen extends StatefulWidget {
 class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{
   TabController? controller;
+
+  @override
+  void initState(){
+    super.initState();
+
+    controller = TabController(length: 2, vsync:  this);
+  }
 }
   @override
   Widget build(BuildContext context){
