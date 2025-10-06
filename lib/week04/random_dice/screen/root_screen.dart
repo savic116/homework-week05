@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class RootScreen extends StatefulWidget {
-  
+  const RootScreen({Key? key}) : super(key: key);
 }
   @override
   Widget build(BuildContext context){
