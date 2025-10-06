@@ -33,8 +33,16 @@ class SettingScreen extends StatelessWidget{
               ),
             ],
           ),
-        )
-      ]
-    )
+        ),
+        Slider(
+          min: 0.1,
+          max: 10.0,
+          divisions: 101,
+          value: threshold,
+          onChanged: onThresholdChange,
+          label: threshold.toStringAsFixed(1),
+        ),
+      ],
+    );
   }
 }
