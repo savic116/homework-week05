@@ -13,4 +13,11 @@ class RootScreen extends StatelessWidget {
 
     );
   }
+  List<Widget> renderChildren(){
+    return[];
+  }
+
+  BottomNavigationBar renderBottomNavigation(){
+    return BottomNavigationBar(items: [],);
+  }
 }
