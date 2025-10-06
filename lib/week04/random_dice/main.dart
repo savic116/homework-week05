@@ -23,7 +23,7 @@ void main(){
           backgroundColor: BackgroundColor,
         ),
       ),
-      home: HomeScreen(),
+      home: RootScreen(),
     ),
   );
 }
