@@ -5,6 +5,8 @@ class RootScreen extends StatefulWidget {
   @override
   State<RootScreen> createState() => _RootScreenState();
 }
+
+
 class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{
   TabController? controller;
@@ -15,11 +17,12 @@ TickerProviderStateMixin{
 
     controller = TabController(length: 2, vsync:  this);
   }
-}
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
       body: TabBarView(
+        controller: controller,
         children: renderChildren(),
       ),
 
@@ -34,3 +37,4 @@ TickerProviderStateMixin{
   BottomNavigationBar renderBottomNavigation(){
     return BottomNavigationBar(items: [],);
   }
+}
