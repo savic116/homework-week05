@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
+import 'package:myapp/week04/random_dice/screen/setting_screen.dart';
 class RootScreen extends StatefulWidget {
   const RootScreen({Key? key}) : super(key: key);
 
@@ -48,7 +49,7 @@ TickerProviderStateMixin{
       HomeScreen(number: 1),
       SettingsScreen(
         threshold: threshold,
-        
+
       )
     ];
   }
