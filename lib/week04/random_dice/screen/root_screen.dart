@@ -46,16 +46,7 @@ TickerProviderStateMixin{
   List<Widget> renderChildren(){
     return[
       HomeScreen(number: 1),
-      Container(
-        child: Center(
-          child: Text(
-            'Tab 2',
-            style: TextStyle(
-              color: Colors.white,
-            )
-          )
-        ),
-      )
+      
     ];
   }
 
