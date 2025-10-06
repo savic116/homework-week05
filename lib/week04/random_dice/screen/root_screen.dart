@@ -68,7 +68,16 @@ TickerProviderStateMixin{
   }
 
   BottomNavigationBar renderBottomNavigation(){
-    return BottomNavigationBar(items: [
+    return BottomNavigationBar(
+
+      currentIndex: controller!.index,
+      onTap: (int index){
+        setState(() {
+          controller!.animateTo(index);
+        });
+      },
+      
+      items: [
       BottomNavigationBarItem(
         icon: Icon(
           Icons.edgesensor_high_outlined,
