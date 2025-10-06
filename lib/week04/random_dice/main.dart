@@ -11,7 +11,7 @@ void main(){
           thumbColor: primaryColor,
           activeTrackColor: primaryColor,
 
-          inactiveTickMarkColor: primaryColor.withOpacity(0.3),
+         inactiveTrackColor: primaryColor.withOpacity(0.3),
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           selectedIconTheme:  IconThemeData(
