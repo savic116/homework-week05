@@ -54,6 +54,11 @@ TickerProviderStateMixin{
       ),
     ];
   }
+  void onThresholdChange(double val){
+    setState(() {
+      threshold = val;
+    });
+  }
 
   BottomNavigationBar renderBottomNavigation(){
     return BottomNavigationBar(
