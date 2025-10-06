@@ -10,6 +10,8 @@ void main(){
         sliderTheme: SliderThemeData(
           thumbColor: primaryColor,
           activeTrackColor: primaryColor,
+
+          inactiveTickMarkColor: primaryColor.withOpacity(0.3),
         )
       ),
       home: HomeScreen(),
