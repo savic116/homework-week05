@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
-
+import 'dart:math';
+import 'package:shake/shake.dart';
 class RootScreen extends StatefulWidget {
   const RootScreen({Key? key}) : super(key: key);
 
@@ -14,6 +15,7 @@ TickerProviderStateMixin{
   TabController? controller;
   double threshold = 2.7;
   int nubmer = 1;
+  ShakeDetector? shakeDetector;
 
   @override
   void initState(){
