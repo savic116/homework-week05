@@ -24,6 +24,10 @@ TickerProviderStateMixin{
       
     });
   }
+  @override
+  dispose(){
+    
+  }
 
   @override
   Widget build(BuildContext context){
