@@ -24,9 +24,16 @@ class HomeScreen extends StatelessWidget {
           fontWeight: FontWeight.w700,
         ),
       ),
+      SizedBox(height: 12.0,),
+      Text(
+        number.toString(),
+        style: TextStyle(
+          color: primaryColor,
+          fontSize: 60.0,
+          fontWeight: FontWeight.w200,
+        ),
+      ),
     ],
-
-
-    
-  }
+  );
+ }
 }
