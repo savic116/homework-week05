@@ -9,7 +9,7 @@ class RootScreen extends StatelessWidget {
         children: renderChildren(),
       ),
 
-      bottomNavigationBar: renderBottom,
+      bottomNavigationBar: renderBottomNavigation(),
 
     );
   }
