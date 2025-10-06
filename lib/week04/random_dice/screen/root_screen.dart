@@ -15,7 +15,7 @@ class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{
   TabController? controller;
   double threshold = 2.7;
-  int nubmer = 1;
+  int number = 1;
   ShakeDetector? shakeDetector;
 
   @override
