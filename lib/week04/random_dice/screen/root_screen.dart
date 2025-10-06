@@ -30,6 +30,13 @@ TickerProviderStateMixin{
       onPhoneShake: onPhoneShake,
     );
   }
+  void onPhoneShake(){
+    final rand = new Random();
+
+    setState(() {
+      number = rand.nextInt(5) + 1;
+    });
+  }
   tabListener(){
     setState(() {
       
