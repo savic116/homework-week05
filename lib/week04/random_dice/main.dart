@@ -14,8 +14,12 @@ void main(){
           inactiveTickMarkColor: primaryColor.withOpacity(0.3),
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          selectedIconTheme: primaryColor,
-          unselectedIconTheme: secondaryColor,
+          selectedIconTheme:  IconThemeData(
+            color: primaryColor,
+          ),
+          unselectedIconTheme: IconThemeData(
+            color: secondaryColor,
+          ),
           backgroundColor: BackgroundColor,
         ),
       ),
