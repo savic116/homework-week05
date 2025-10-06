@@ -26,7 +26,8 @@ TickerProviderStateMixin{
   }
   @override
   dispose(){
-    
+    controller!.removeListener(tabListener);
+    super.dispose();
   }
 
   @override
