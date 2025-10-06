@@ -3,9 +3,9 @@ class RootScreen extends StatefulWidget {
   const RootScreen({Key? key}) : super(key: key);
 
   @override
-  state<RootScreen> createState() => _RootScreenState();
+  State<RootScreen> createState() => _RootScreenState();
 }
-class _RootScreenState extends state<RootScreen> with
+class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{
   TabController? controller;
 }
