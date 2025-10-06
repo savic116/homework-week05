@@ -31,7 +31,18 @@ TickerProviderStateMixin{
     );
   }
   List<Widget> renderChildren(){
-    return[];
+    return[
+      Container(
+        child: Center(
+          child: Text(
+            'Tab 1',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ),
+      )
+    ];
   }
 
   BottomNavigationBar renderBottomNavigation(){
