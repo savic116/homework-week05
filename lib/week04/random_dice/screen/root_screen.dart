@@ -41,6 +41,16 @@ TickerProviderStateMixin{
             ),
           ),
         ),
+      ),
+      Container(
+        child: Center(
+          child: Text(
+            'Tab 2',
+            style: TextStyle(
+              color: Colors.white,
+            )
+          )
+        ),
       )
     ];
   }
