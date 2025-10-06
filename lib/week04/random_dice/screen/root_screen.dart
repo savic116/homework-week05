@@ -16,6 +16,13 @@ TickerProviderStateMixin{
     super.initState();
 
     controller = TabController(length: 2, vsync:  this);
+
+    controller!.addListener(tabListener);
+  }
+  tabListener(){
+    setState(() {
+      
+    });
   }
 
   @override
